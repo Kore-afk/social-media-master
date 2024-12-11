@@ -1,0 +1,38 @@
+[debug] [2024-12-11T21:27:07.093Z] ----------------------------------------------------------------------
+[debug] [2024-12-11T21:27:07.097Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\angel\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-12-11T21:27:07.097Z] CLI Version:   13.28.0
+[debug] [2024-12-11T21:27:07.098Z] Platform:      win32
+[debug] [2024-12-11T21:27:07.098Z] Node Version:  v22.11.0
+[debug] [2024-12-11T21:27:07.098Z] Time:          Wed Dec 11 2024 15:27:07 GMT-0600 (hora estándar central)
+[debug] [2024-12-11T21:27:07.098Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-12-11T21:27:07.107Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-12-11T21:27:07.108Z] > authorizing via signed-in user (japjapf56@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\angel\Desktop\social-media-master
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-12-11T21:28:42.051Z] Checked if tokens are valid: false, expires at: 1733660175458
+[debug] [2024-12-11T21:28:42.051Z] Checked if tokens are valid: false, expires at: 1733660175458
+[debug] [2024-12-11T21:28:42.051Z] > refreshing access token with scopes: []
+[debug] [2024-12-11T21:28:42.053Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-12-11T21:28:42.053Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-11T21:28:42.328Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-12-11T21:28:42.328Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-12-11T21:28:42.336Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-12-11T21:28:42.687Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-12-11T21:28:42.687Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
